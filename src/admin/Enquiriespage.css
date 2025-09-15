@@ -1,0 +1,189 @@
+
+  .search-bar input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  .page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem 1rem;
+    width: 1000px;
+  }
+  
+  .enquiries-container {
+    margin-left: 150px;
+    background-color: #c4e1f8;
+    width: 100%;
+    max-width: 1800px; /* Increased from 1700px */
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .subtitle {
+    color: #6b4e3d;
+    margin-top: 6px;
+    margin-bottom: 28px;
+    font-size: 16px;
+  }
+  
+  .filter-tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-tabs button {
+    padding: 10px 18px;
+    border: 2px solid #caa88e;
+    border-radius: 999px;
+    font-size: 14px;
+    color: #5e4430;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  
+  .filter-tabs button:hover {
+    background-color: #f4e8df;
+  }
+  
+  .filter-tabs .active {
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  
+  .count {
+    background: #eee;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .count.blue {
+    background-color: #dbeafe;
+    color: #2563eb;
+  }
+  
+  .count.yellow {
+    background-color: #fef3c7;
+    color: #ca8a04;
+  }
+  
+  .count.green {
+    background-color: #d1fae5;
+    color: #059669;
+  }
+  
+  .enquiry-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 2rem;
+  }
+  
+  .enquiry-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .enquiry-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  }
+  
+  .enquiry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry-header p {
+    color: #444;
+    margin: 0;
+  }
+  
+  .status-tag {
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .status-new {
+    background-color: #e0f2fe;
+    color: #2563eb;
+  }
+  
+  .status-progress {
+    background-color: #fef9c3;
+    color: #ca8a04;
+  }
+  
+  .status-resolved {
+    background-color: #d1fae5;
+    color: #059669;
+  }
+  
+  .enquiry-body {
+    margin-top: 1rem;
+    background-color: #fdfdfd;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #eee;
+  }
+  
+  .received {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .respond-button-container {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .respond-button {
+    background-color: #b5795f;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .respond-button:hover {
+    background-color: #9a614b;
+  }
+  

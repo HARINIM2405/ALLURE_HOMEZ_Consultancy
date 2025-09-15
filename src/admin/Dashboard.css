@@ -1,0 +1,134 @@
+.dashboard-container {
+    padding: 24px;
+    background-color: #f9fafb;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    min-height: 100vh; /* Ensure it takes at least the full height of the page */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+  }
+  
+  .summary-card {
+    background-color: rgb(249, 239, 239);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 48%; /* Adjusted to 48% for the first two cards to fit side by side */
+    min-width: 280px;
+  }
+  
+  .summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    font-size: 28px;
+  }
+  
+  .purple {
+    color: #A78BFA;
+  }
+  
+  .blue {
+    color: #3B82F6;
+  }
+  
+  .red {
+    color: #EF4444;
+  }
+  
+  .yellow {
+    color: #FBBF24;
+  }
+  
+  .value {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 12px;
+  }
+  
+  .value + .MuiTypography-body2 {
+    font-size: 1rem;
+    color: #4B5563;
+    margin-top: 8px;
+  }
+  
+  .MuiGrid-root {
+    margin-top: 16px;
+  }
+  
+  /* Graphs Layout */
+  .graph-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    margin-top: 24px;
+
+  }
+  
+  .graph-container > .MuiGrid-item {
+    flex: 1;
+    min-width: 300px; /* Ensure graphs take up enough space */
+  }
+  
+  /* For mobile view */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 16px;
+    }
+  
+    .summary-card {
+      padding: 12px;
+      width: 48%; /* Adjust for smaller screens */
+    }
+  
+    .icon {
+      font-size: 22px;
+    }
+  
+    .value {
+      font-size: 1.2rem;
+    }
+  
+    .value + .MuiTypography-body2 {
+      font-size: 0.9rem;
+    }
+  
+    /* Ensure the graphs stack vertically on smaller screens */
+    .graph-container {
+      flex-direction: column;
+    }
+  
+    .graph-container > .MuiGrid-item {
+      width: 100%;
+    }
+  }
+  

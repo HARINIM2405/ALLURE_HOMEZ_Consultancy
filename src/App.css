@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+  }
+  /* Target the shop page only */
+.shop-page-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+}

@@ -1,0 +1,124 @@
+.workers-container {
+  width: 100%;
+  padding: 32px;
+  background-color: #f9fafb;
+  box-sizing: border-box;
+}
+
+.workers-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  color: #111827;
+}
+
+.workers-header p {
+  color: #6b7280;
+  font-size: 16px;
+  margin: 4px 0 20px;
+}
+
+.workers-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.search-input {
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 260px;
+}
+
+.export-btn,
+.add-btn {
+  margin-left: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.export-btn {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+}
+
+.add-btn {
+  background-color: #111827;
+  color: white;
+}
+
+.workers-table-container {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 500px;
+}
+
+.workers-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1000px;
+  table-layout: fixed;
+}
+
+.workers-table th,
+.workers-table td {
+  text-align: left;
+  padding: 16px;
+  color: #000000;
+  font-size: 14px;
+  min-width: 130px;
+  word-wrap: break-word;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.workers-table th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.workers-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.status-badge.active {
+  background-color: #111827;
+  color: white;
+}
+
+.status-badge.relieved {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.workers-table input,
+.workers-table select {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,272 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  color: #2e3b4e;
+  margin: 0;
+}
+
+/* Home container adjustments */
+.home-container {
+  padding: 100px;
+  padding-top: 100px; /* Adjust for navbar height */
+  background-color: #ffffff;
+}
+
+.brand-title {
+  font-size: 56px;
+  font-weight: 900;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Home banner section */
+.home-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+  margin-top: 35px;
+}
+
+.banner-text {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  color: #0B2AA7;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+.banner-text h2 {
+  font-size: 24px;
+  color: #2e3b4e;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.banner-image {
+  flex: 1;
+  padding-right: 70px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #5f6b77;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Home Image */
+.home-image {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+/* Services Section */
+.services {
+  margin-top: 40px;
+}
+
+.services h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-item {
+  text-align: center;
+  margin: 20px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  color: #0B2AA7;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Featured Products Section */
+.featured-products {
+  margin-top: 60px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.featured-products h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product h4 {
+  font-size: 18px;
+  color: #0B2AA7;
+  margin-top: 10px;
+}
+
+/* Transform Section */
+.transform {
+  margin-top: 60px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.transform h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2e3b4e;
+}
+
+.transform p {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  margin-top: 60px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial-item {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.testimonial-item strong {
+  color: #0B2AA7;
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: #0B2AA7;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cta h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e1e1e1;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+}

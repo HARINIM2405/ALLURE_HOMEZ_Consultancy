@@ -1,0 +1,104 @@
+.admin-portfolio {
+  width: 90%;
+  max-width: 1200px;
+  margin: 3rem auto;
+  font-family: 'Arial', sans-serif;
+  color: #222;
+}
+
+.admin-portfolio h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-portfolio h3 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.admin-portfolio h4 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.admin-portfolio label {
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.admin-portfolio input[type="text"],
+.admin-portfolio input[type="file"],
+.admin-portfolio textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.item-group {
+  background: #f1f5f9;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: 1px solid #dce3e8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.admin-portfolio img {
+  margin-top: 0.5rem;
+  max-width: 160px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.admin-portfolio .section {
+  margin-top: 2rem;
+}
+
+button {
+  padding: 0.5rem 1.2rem;
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #004c99;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+button.save-button {
+  background-color: #28a745;
+  font-size: 1.05rem;
+  padding: 0.75rem 2rem;
+  margin-top: 3rem;
+}
+
+button.save-button:hover {
+  background-color: #218838;
+}

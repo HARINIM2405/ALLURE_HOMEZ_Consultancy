@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+.portfolio-section {
+  background-color:white;
+  color: #111010;
+  padding: 60px 80px;
+ 
+  margin-top:40px;
+}
+
+.portfolio-intro h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #060606;
+}
+
+.portfolio-intro p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.portfolio-text {
+  margin-top: 40px;
+}
+
+.portfolio-text h2 {
+    
+  font-size: 28px;
+  border-bottom: 3px solid #2dd4bf;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #090909;
+  
+}
+
+.portfolio-text p {
+  font-size: 16px;
+  color: #0d0d0d;
+  margin-bottom: 20px;
+ 
+}
+
+.portfolio-text ul {
+  list-style: none;
+  padding: 0;
+  
+  
+}
+
+.portfolio-text li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #0a0a0a;
+  font-weight: 900;
+ 
+}
+
+.showcase-section h2 {
+
+
+    font-size: 28px;
+    border-bottom: 3px solid #2dd4bf;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #090909;
+
+}
